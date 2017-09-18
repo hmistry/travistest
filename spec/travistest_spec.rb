@@ -3,7 +3,7 @@ RSpec.describe Travistest do
     expect(Travistest::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "Fetch coffee is nil" do
+    expect(Travistest::Coffee.new.fetch_coffee).to eq(nil)
   end
 end
