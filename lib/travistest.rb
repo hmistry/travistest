@@ -10,5 +10,9 @@ module Travistest
         nil
       end
     end
+
+    def faker_version
+      Faker::VERSION
+    end
   end
 end
