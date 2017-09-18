@@ -7,5 +7,6 @@ rvm:
 gemfile:
   - Gemfile
   - Gemfile.latest
+  - Gemfile.no_lock
 
 # before_install: gem install bundler
